@@ -7,6 +7,7 @@ export default async () => {
         return;
     }
 
+    console.log("LOGGING:")
     console.log(Object.keys(danger.github));
 
     const githubLabels = danger.github.issue.labels;
